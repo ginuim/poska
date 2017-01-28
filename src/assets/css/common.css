@@ -1,0 +1,17 @@
+.clearfix:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix{
+  *+height: 1%;
+}
+a {
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all 0.25s ease-out 0s;
+  -moz-transition: all 0.25s ease-out 0s;
+  transition: all 0.25s ease-out 0s;
+}
